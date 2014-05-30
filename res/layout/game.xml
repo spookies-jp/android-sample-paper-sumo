@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <jp.co.spookies.android.papersumo.PaperSumoView
+        android:id="@+id/sumo_view"
+        android:layout_width="match_parent" android:layout_height="match_parent" />
+        
+    <LinearLayout
+        android:id="@+id/end_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_black"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/retry"
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/end"
+            />
+    </LinearLayout>
+
+</FrameLayout>
